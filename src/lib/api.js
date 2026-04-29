@@ -1,5 +1,5 @@
 const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL ?? '').replace(/\/$/, '')
-const DEFAULT_BACKEND_URL = 'http://localhost:3000'
+const DEFAULT_BACKEND_URL = 'https://scrapper-harga-pangan.onrender.com'
 import { useAuthStore } from './authStore'
 
 export function buildEndpoint(path) {
